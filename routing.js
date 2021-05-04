@@ -20,4 +20,4 @@ http.createServer(function (request, response) {
     response.writeHead(404);
     response.end(http.STATUS_CODES[404]);
 
-}).listen(80);
+}).listen(process.env.PORT);
