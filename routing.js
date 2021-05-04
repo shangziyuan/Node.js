@@ -12,7 +12,7 @@ var routes = {
 }
 
 http.createServer(function (request, response) {
-    
+
     if (request.url in routes) {
         return routes[request.url](request, response);
     }
@@ -20,4 +20,4 @@ http.createServer(function (request, response) {
     response.writeHead(404);
     response.end(http.STATUS_CODES[404]);
 
-}).listen(1337);
+}).listen(80);
