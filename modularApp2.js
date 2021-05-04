@@ -1,6 +1,6 @@
 // app.js
 const express = require('express');
-const greetMiddleware = require('./greet.js');
+const greetMiddleware = require('./greet2.js');
 
 class GreetingService {
     constructor(greeting = 'Hello') {
