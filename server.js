@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var httpsOptions = {
     key: fs.readFileSync('/home/ubuntu/conf/ca-key.pem'),
-    cert: fs.readFileSync('/home/ubuntu/conf/ca-crt.pem')
+    cert: fs.readFileSync('/home/ubuntu/conf/ca-cert.pem')
 };
 
 var app = function (req, res) { 
