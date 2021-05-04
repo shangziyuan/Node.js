@@ -1,6 +1,6 @@
 // app.js
 const express = require('express');
-const greetMiddleware = require('./greet.js');
+const greetMiddleware = require('./greet1.js');
 
 express()
     .use('/api/v1/', greetMiddleware({ greeting:'Hello world' }))
