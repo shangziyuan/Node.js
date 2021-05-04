@@ -6,4 +6,4 @@ app.get('/ping', (request, response) => {
     response.send('pong');
 });
 
-app.listen(80, 'localhost');
+app.listen(80);
